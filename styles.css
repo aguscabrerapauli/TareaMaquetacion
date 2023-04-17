@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+p {
+    margin-right: 3em;
+}
+
+.imagen{
+width: 8em;
+}
+
+
+h1 {
+    margin: 0px 300px;
+    text-align: center;
+    font-size: 2em;
+    color: #201B24;
+}
+
+
+button.redondo {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 1.5em;
+    height: 2em;
+
+}
+
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+
+#Sumate {
+    font-size: 12px;
+    border-radius: 18px;
+}
+
+
+.enlaces:hover {
+    color: blueviolet;
+}
+
+@media (width >= 2000px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@media (width >= 4000px) {
+    body {
+        font-size: 30px;
+    }
+}
